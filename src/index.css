@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #f7f7f7;
+  font-family:'Calibri';
+  outline: none !important;
+}
+.main{
+
+  margin: 0 auto;
+  max-width: 400px;
+  background-color:#f7f7f7 ;
+  border: none;
+  margin-top:10px ;
+}
+.heading-text{
+   text-align: center;
+}
+.balance{
+  font-weight: bold;
+  font-size: 40px;
+}
+.income-and-expense{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 4px 4px 4px 2px grey;
+
+}
+.middleline{
+  background-color: #f7f7f7 !important;
+  min-width: 3px !important;
+  height: 70px;
+  margin-top: 6px !important;
+}
+.income-color{
+  color: #88e1b1;
+}
+.expense-color{
+  color: #d8807d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.traker-list-ul{
+margin: 0;
+padding: 0;
+}
+.traker-list{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 0px 10px  grey;
+  padding: 10px 12px; 
+  margin:5px 0 ;
+}
+.transaction-form  input{
+
+  width: 100%;
+  margin: 10px 0;
+  height: 25px;
+}
+.transaction-form  input:focus{
+  outline: rgb(88, 88, 170) !important;
+}
+.submitbutton{
+
+  width: 102% !important;
+  height: 33px !important;
+  background-color: #9c8cfc !important;
+  border: 2px solid #9c8cfc;
+  border-radius: 5px;
+  color: white;
+}
+.submitbutton:hover{
+  opacity: 0.8;
+}
+.green{
+  background-color: #88e1b1;
+}
+.red{
+  background-color:  #d8807d;
+}
+.delete{
+  font-size: 10px;
+  color: red;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.delete:hover{
+
+  text-decoration: underline;
+}
+.delete:focus{
+  outline: none;
 }
